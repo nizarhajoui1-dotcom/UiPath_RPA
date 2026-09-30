@@ -74,13 +74,14 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence for 2nd workflow." sap:VirtualizedContainerService.HintSize="450,191" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Sequence for 2nd workflow." sap:VirtualizedContainerService.HintSize="450,313" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hi There!&quot;]" />
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,117" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hi There!&quot;]" />
+      <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="Delay_1" />
     </Sequence>
   </Sequence>
 </Activity>
